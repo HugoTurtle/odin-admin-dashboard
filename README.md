@@ -1,1 +1,2 @@
 # odin-admin-dashboard
+This project is an admin dashboard designed to demonstrate my proficiency in CSS Grid while also incorporating Flexbox. The goal is to apply a layout-first design approach, focusing on responsive and structured styling.  
