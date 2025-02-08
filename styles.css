@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --main-color: #C8F4DE;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -16,6 +19,7 @@ body,
     padding: 15px 0px 0px 15px;
     grid-template-rows: auto auto auto 1fr;
     gap: 50px;
+    background-color: var(--main-color);
 }
 .sidebar-header {
     display: grid;
@@ -37,6 +41,7 @@ body,
     grid-template-columns: auto 1fr; 
     align-items: center; 
     gap: 20px; 
+    color: black;
 }
 .sidebar-header .icon img {
     width: 2.4em;
