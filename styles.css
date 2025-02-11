@@ -62,6 +62,7 @@ header {
     display: grid;
     grid: min-content min-content / auto auto;
     align-items: center;
+    padding: 15px 30px;
 }
 .profile-picture {
     display: inline-block;
