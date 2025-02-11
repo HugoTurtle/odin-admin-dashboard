@@ -63,3 +63,14 @@ header {
     grid: min-content min-content / auto auto;
     align-items: center;
 }
+.profile-picture {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
