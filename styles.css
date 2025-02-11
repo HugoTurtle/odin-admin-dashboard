@@ -92,3 +92,12 @@ form {
     gap: 10px;
     align-items: center;
 }
+.grid-wrapper {
+    display: grid;
+}
+header .grid-wrapper:nth-child(2) {
+    grid-template-columns: min-content min-content max-content;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
