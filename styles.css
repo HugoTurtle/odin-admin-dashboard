@@ -61,4 +61,5 @@ ul {
 header {
     display: grid;
     grid: min-content min-content / auto auto;
+    align-items: center;
 }
