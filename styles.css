@@ -111,3 +111,14 @@ header .grid-wrapper:nth-child(3) img {
     width: 55px;
     height: 55px;
 }
+button {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+
+    border: none;
+    border-radius: 20px;
+    min-height: 30px; 
+    max-width: 80px;
+    background-color: var(--main-color);
+}
