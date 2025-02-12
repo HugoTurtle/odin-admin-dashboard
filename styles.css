@@ -122,3 +122,7 @@ button {
     max-width: 80px;
     background-color: var(--main-color);
 }
+.button-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
