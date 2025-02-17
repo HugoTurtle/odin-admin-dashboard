@@ -128,3 +128,10 @@ button {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
 }
+main {
+    display: grid;
+    grid: 1fr 1fr / 2fr 1fr;
+}
+#user-projects {
+    grid-row: 1 / 3;
+}
