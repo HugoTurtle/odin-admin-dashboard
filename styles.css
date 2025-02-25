@@ -129,6 +129,7 @@ header .grid-wrapper:nth-child(3) img {
 button {
     font-family: inherit;
     font-size: 100%;
+    font-weight: 500;
     box-sizing: border-box;
 
     border: none;
@@ -136,6 +137,7 @@ button {
     min-height: 30px; 
     max-width: 80px;
     background-color: var(--main-color);
+
 }
 .button-container {
     grid-template-columns: 1fr 1fr 1fr;
