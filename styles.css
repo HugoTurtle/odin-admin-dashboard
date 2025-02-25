@@ -8,9 +8,9 @@
     src: url(./fonts/roboto-fontfacekit/web\ fonts/);
 }
 :root {
-    --main-color: #C8F4DE;
-    --body-color: #E2E8F0;
-    --accent-color: red;
+    --main-color: #0057B7;
+    --body-color: #F2F2F2;
+    --accent-color: #00AEEF;
     --card-color: white;
 }
 .container {
