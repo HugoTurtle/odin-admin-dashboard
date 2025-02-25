@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 @font-face {
     font-family: "Roboto";
@@ -23,7 +24,7 @@ body {
 }
 body, 
 .container {
-    min-height: 100vh;
+    height: 100vh;
 }
 .sidebar {
     display: grid;
