@@ -144,6 +144,7 @@ button {
 main {
     display: grid;
     grid: 1fr 1fr / 2fr 1fr;
+    gap: 20px;
     padding: 25px 15px;
 }
 #user-projects {
