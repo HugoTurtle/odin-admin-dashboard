@@ -170,3 +170,26 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
+#announcements .grid-wrapper {
+    background-color: var(--card-color);
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    height: 305px;
+}
+#announcements .grid-wrapper article {
+    display: grid;
+    margin: 5px;
+    align-content: center;
+}
+#announcements .grid-wrapper article:first-child, 
+#announcements .grid-wrapper article:nth-child(2){
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+#announcements .grid-wrapper h4 {
+    font-size: 0.8rem;
+}
+#announcements .grid-wrapper p {
+    font-size: 0.6rem;
+    color: gray;
+}
